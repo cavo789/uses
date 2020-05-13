@@ -4,11 +4,13 @@
   but run the tool once more
 -->
 
-<!-- Last refresh date: 2020-05-13 14:53:33 -->
+<!-- Last refresh date: 2020-05-13 14:55:25 -->
 
 <!-- below, content of ./index.md -->
 
 # Uses
+
+![Banner](./images/banner.jpg)
 
 List of some software I use in software development.
 
