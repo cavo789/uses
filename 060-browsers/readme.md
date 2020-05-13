@@ -2,7 +2,7 @@
 
 ## Internet Explorer
 
-When I feel like laughing and remember how mediocre that software is. 
+When I feel like laughing and remember how mediocre that software is.
 
 ## Chrome
 
@@ -10,7 +10,7 @@ When I feel like laughing and remember how mediocre that software is.
 
 My main browser with a few addons.
 
-### Adblock Plus 
+### Adblock Plus
 
 > [https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
 
@@ -27,6 +27,8 @@ Tells Google to not track my surf session.
 > [https://chrome.google.com/webstore/detail/json-formatter/cfaihfocdnniaholfnjcemnfhcjchohb](https://chrome.google.com/webstore/detail/json-formatter/cfaihfocdnniaholfnjcemnfhcjchohb)
 
 Nicely display json content.
+
+*Also take a look to my [JSONLint](https://github.com/cavo789/jsonlint) repository.*
 
 ### LastPass
 
