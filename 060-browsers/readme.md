@@ -34,7 +34,7 @@ Nicely display json content.
 
 > [https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
 
-Add on for [LastPass]https://www.lastpass.com/
+Add on for [LastPass](https://www.lastpass.com/)
 
 ### Stylish
 
