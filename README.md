@@ -2,7 +2,7 @@
 <!-- C:\Christophe\Repository\writing-documentation\concat-md\concat-md.ps1 -->
 <!-- So don't modify this file manually but run the tool once more instead -->
 
-<!-- Last refresh date: 2020-05-13 22:30:33 -->
+<!-- Last refresh date: 2020-05-13 22:32:13 -->
 
 <!-- below, content of ./index.md -->
 
@@ -277,7 +277,7 @@ Nicely display json content.
 
 > [https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd)
 
-Add on for [LastPass]https://www.lastpass.com/
+Add on for [LastPass](https://www.lastpass.com/)
 
 #### Stylish
 
