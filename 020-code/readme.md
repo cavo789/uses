@@ -41,3 +41,15 @@ Visual Studio Code as my main IDE.
 > [https://bettersolutions.com/vba/ribbon/custom-ui-editor.htm](https://bettersolutions.com/vba/ribbon/custom-ui-editor.htm)
 
 Custom UI Editor for writing ribbons for MS Excel applications.
+
+## regex101
+
+> [https://regex101.com/](https://regex101.com/)
+
+To create regular expressions and immediately test them.
+
+## Winmerge
+
+> [https://winmerge.org/](https://winmerge.org/)
+
+To compare two files and detect differences. Works for folders too.
