@@ -10,7 +10,7 @@ A million times better than the old, basic Windows Explorer.
 
 XYplorer is a freemium software, you can use it for free but not all features will be available. On my own, I got a lifetime license in 2015.
 
-XYplorer supports automation! ([https://github.com/cavo789/tools_xyplorer](https://github.com/cavo789/tools_xyplorer)).
+*Also take a look to my [XYplorer repository](https://github.com/cavo789/tools_xyplorer).*
 
 ## WinSCP
 
@@ -19,6 +19,8 @@ XYplorer supports automation! ([https://github.com/cavo789/tools_xyplorer](https
 The FTP client of my choice.
 
 WinSCP supports automation! ([https://github.com/cavo789/tools_winscp](https://github.com/cavo789/tools_winscp))
+
+*Also take a look to my [WinSCP repository](https://github.com/cavo789/tools_winscp).*
 
 ## 7-Zip
 
