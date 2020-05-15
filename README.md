@@ -1,7 +1,8 @@
-﻿<!-- This file has been generated automatically by the concat-md.ps1 script -->
+﻿<!-- This file has been generated automatically by the following script -->
+<!-- C:\Christophe\Repository\writing-documentation\concat-md\concat-md.ps1 -->
 <!-- So don't modify this file manually but run the tool once more instead -->
 
-<!-- Last refresh date: 2020-05-14 22:57:59 -->
+<!-- Last refresh date: 2020-05-15 21:29:54 -->
 
 <!-- below, content of ./index.md -->
 
@@ -15,48 +16,56 @@ As I'm running under Windows, some of the software below may only be available f
 
  <!-- table-of-contents - start -->
 * [File management](#file-management)
-  * [7-Zip](#7-zip)
-  * [WinSCP](#winscp)
-  * [XYplorer](#xyplorer)
+    * [7-Zip](#7-zip)
+    * [WinSCP](#winscp)
+    * [XYplorer](#xyplorer)
 * [Writing code](#writing-code)
-  * [Composer](#composer)
-  * [Custom UI Editor for Microsoft Office](#custom-ui-editor-for-microsoft-office)
-  * [GIT](#git)
-  * [Github](#github)
-  * [Notepad++](#notepad)
-  * [NPM](#npm)
-  * [regex101](#regex101)
-  * [Visual Studio Code](#visual-studio-code)
-  * [Wamp](#wamp)
-  * [Winmerge](#winmerge)
+    * [Code quality tools](#code-quality-tools)
+       * [markdownlint](#markdownlint)
+       * [phan](#phan)
+       * [PHP-CS-Fixer](#php-cs-fixer)
+       * [PHP Mess Detector](#php-mess-detector)
+       * [PHP Magic Number Detector](#php-magic-number-detector)
+       * [PHPStan](#phpstan)
+       * [PHP_CodeSniffer](#php_codesniffer)
+    * [Composer](#composer)
+    * [Custom UI Editor for Microsoft Office](#custom-ui-editor-for-microsoft-office)
+    * [GIT](#git)
+    * [Github](#github)
+    * [Notepad++](#notepad++)
+    * [NPM](#npm)
+    * [regex101](#regex101)
+    * [Visual Studio Code](#visual-studio-code)
+    * [Wamp](#wamp)
+    * [Winmerge](#winmerge)
 * [Documentation](#documentation)
-  * [Mermaid](#mermaid)
-  * [Pandoc](#pandoc)
-    * [Eisvogel](#eisvogel)
-    * [Latex](#latex)
-  * [reveal.js](#revealjs)
+    * [Mermaid](#mermaid)
+    * [Pandoc](#pandoc)
+       * [Eisvogel](#eisvogel)
+       * [Latex](#latex)
+    * [reveal.js](#revealjs)
 * [Database management](#database-management)
-  * [MySQL Workbench](#mysql-workbench)
+    * [MySQL Workbench](#mysql-workbench)
 * [Images](#images)
-  * [Canvas](#canvas)
-  * [Framapic](#framapic)
-  * [Paint.net](#paintnet)
-  * [Screenpresso](#screenpresso)
-  * [ScreenToGif](#screentogif)
-  * [Squoosh](#squoosh)
+    * [Canvas](#canvas)
+    * [Framapic](#framapic)
+    * [Paint.net](#paintnet)
+    * [Screenpresso](#screenpresso)
+    * [ScreenToGif](#screentogif)
+    * [Squoosh](#squoosh)
 * [Browsers](#browsers)
-  * [Chrome](#chrome)
-    * [Adblock Plus](#adblock-plus)
-  * [Disable Google Analytics](#disable-google-analytics)
-  * [Internet Explorer](#internet-explorer)
-  * [JSON Formatter](#json-formatter)
-  * [LastPass](#lastpass)
-  * [Stylish](#stylish)
+    * [Chrome](#chrome)
+       * [Adblock Plus](#adblock-plus)
+    * [Disable Google Analytics](#disable-google-analytics)
+    * [Internet Explorer](#internet-explorer)
+    * [JSON Formatter](#json-formatter)
+    * [LastPass](#lastpass)
+    * [Stylish](#stylish)
 * [Others](#others)
-  * [Antidot](#antidot)
-  * [DeepL](#deepl)
-  * [LastPass](#lastpass-1)
-  * [Spotify](#spotify)
+    * [Antidot](#antidot)
+    * [DeepL](#deepl)
+    * [LastPass](#lastpass)
+    * [Spotify](#spotify)
 <!-- table-of-contents - end -->
 
 <!-- below, content of ./010-file-manager/readme.md -->
@@ -100,6 +109,86 @@ A million times better than the old, basic Windows Explorer.
 <!-- below, content of ./020-code/readme.md -->
 
 ## Writing code
+
+<!-- below, content of ./020-code/code_quality/readme.md -->
+
+### Code quality tools
+
+Code quality, linter, formatting tools, ... I'm using.
+
+<!-- below, content of ./020-code/code_quality/markdownlint/readme.md -->
+
+#### markdownlint
+
+> [https://github.com/DavidAnson/markdownlint](https://github.com/DavidAnson/markdownlint)
+
+Linter for markdown files. Thanks to the `--fix` command line arguments, markdownlint will fixes errors for you like removing trailing spaces at the end of lines.
+
+Will warn about problems like using invalid hierarchy (you use a `H3` just after a `H2`).
+
+<!-- below, content of ./020-code/code_quality/phan/readme.md -->
+
+#### phan
+
+> [https://github.com/phan/phan](https://github.com/phan/phan)
+
+Another PHP Static Code Analyzer. To use in conjunction with [PHPSTAN](#phpstan).
+
+<!-- below, content of ./020-code/code_quality/php-cs-fixer/readme.md -->
+
+#### PHP-CS-Fixer
+
+> [https://github.com/FriendsOfPHP/PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+
+The PHP Coding Standards Fixer (PHP CS Fixer) tool fixes your code to follow standards; whether you want to follow PHP coding standards as defined in the PSR-1, PSR-2, ...
+
+Greatly increase code quality.
+
+<!-- below, content of ./020-code/code_quality/phpmd/readme.md -->
+
+#### PHP Mess Detector
+
+> [https://phpmd.org/](https://phpmd.org/)
+
+PHP MD is a tool to check for unused variables, dead or duplicate code (*Don't repeat yourself*), ...
+
+<!-- below, content of ./020-code/code_quality/phpmnd/readme.md -->
+
+#### PHP Magic Number Detector
+
+> [https://github.com/povils/phpmnd](https://github.com/povils/phpmnd)
+
+PHPMND will scan your code and search for number. For instance:
+
+```php
+if (mb_strlen($password) > 7) {
+    throw new InvalidArgumentException("password");
+}
+```
+
+and suggest to define a constant instead of hard-coding the number. With a constant, the code will immediately be more readable.
+
+<!-- below, content of ./020-code/code_quality/phpstan/readme.md -->
+
+#### PHPStan
+
+> [https://github.com/phpstan/phpstan](https://github.com/phpstan/phpstan)
+
+Static code analyzer for PHP; scan the code without running it and discovered potentials problems and give powerful hints to improve the code quality and stability.
+
+To use in conjunction with [PHAN](#phan).
+
+<!-- below, content of ./020-code/code_quality/php_codesniffer/readme.md -->
+
+#### PHP_CodeSniffer
+
+> [https://github.com/squizlabs/PHP_CodeSniffer/](https://github.com/squizlabs/PHP_CodeSniffer/)
+
+PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.
+
+Thanks to `phpcbf`, PHP_CodeSniffer will reformat the code to respect standards (by default `PSR2` rules) and fix some formatting errors for you.
+
+Then `phpcs` will warn about other violations you'll need to fix manually.
 
 <!-- below, content of ./020-code/composer/readme.md -->
 
