@@ -46,6 +46,8 @@ Visual Studio Code as my main IDE.
 
 Custom UI Editor for writing ribbons for MS Excel applications.
 
+*Also take a look to my [How to create a ribbon in Excel](https://github.com/cavo789/excel_ribbon) repository.*
+
 ## regex101
 
 > [https://regex101.com/](https://regex101.com/)
@@ -57,7 +59,6 @@ To create regular expressions and immediately test them.
 > [https://winmerge.org/](https://winmerge.org/)
 
 To compare two files and detect differences. Works for folders too.
-*Also take a look to my [How to create a ribbon in Excel](https://github.com/cavo789/excel_ribbon) repository.*
 
 ## Wamp
 
