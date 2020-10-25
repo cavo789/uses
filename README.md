@@ -2,15 +2,13 @@
 <!-- Don't modify this file manually (you'll loose your changes) -->
 <!-- but run the tool once more -->
 
-<!-- Last refresh date: 2020-06-05 11:36:02 -->
+<!-- Last refresh date: 2020-10-25 15:43:46 -->
 
 <!-- below, content of ./index.md -->
 
 # Uses
 
-![Banner](./images/banner.jpg)
-
-List of some software I use in software development.
+![Banner](./banner.svg)
 
 As I'm running under Windows, some of the software below may only be available for that operating system.
 
@@ -28,6 +26,8 @@ As I'm running under Windows, some of the software below may only be available f
     * [PHP Magic Number Detector](#php-magic-number-detector)
     * [PHPStan](#phpstan)
     * [PHP_CodeSniffer](#php_codesniffer)
+    * [Psalm](#psalm)
+    * [Rector](#rector)
   * [Composer](#composer)
   * [Custom UI Editor for Microsoft Office](#custom-ui-editor-for-microsoft-office)
   * [GIT](#git)
@@ -189,6 +189,30 @@ PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations o
 Thanks to `phpcbf`, PHP_CodeSniffer will reformat the code to respect standards (by default `PSR2` rules) and fix some formatting errors for you.
 
 Then `phpcs` will warn about other violations you'll need to fix manually.
+
+<!-- below, content of ./020-code/code_quality/psalm/readme.md -->
+
+#### Psalm
+
+> [https://github.com/vimeo/psalm](https://github.com/vimeo/psalm)
+
+Another PHP static code analysis. A very good complement to the others ones.
+
+<!-- below, content of ./020-code/code_quality/rector/readme.md -->
+
+#### Rector
+
+> [https://github.com/rectorphp/rector](https://github.com/rectorphp/rector)
+
+More than a tool, a coach.
+
+Rector will analyze your code (static analysis) and will suggest a lot of improvements like using new syntax : you've always use `$customers = array();`; did you know you can type; since PHP 7 `$customers = [];`.
+
+Rector will give you a lot of suggestions to improve the quality of your code and to help you to become a better PHP developer. If you're coding for f.i. PHP 7.4, Rector will detect your "old" way of doing things and will tell "hey guy, did you know that ..." and inform you of the new features of the langage.
+
+Rector is a refactoring tool and also make a lot of automated changes to help you to f.i. convert your code from PHP 5.3 to PHP 7.4 f.i.
+
+It's an excellent tool with an amazing support : the developer answer very fast (see [Issues](https://github.com/rectorphp/rector/issues)).
 
 <!-- below, content of ./020-code/composer/readme.md -->
 
