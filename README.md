@@ -2,7 +2,7 @@
 <!-- Don't modify this file manually (you'll loose your changes) -->
 <!-- but run the tool once more -->
 
-<!-- Last refresh date: 2020-10-25 15:43:46 -->
+<!-- Last refresh date: 2020-10-25 15:47:18 -->
 
 <!-- below, content of ./index.md -->
 
@@ -22,6 +22,7 @@ As I'm running under Windows, some of the software below may only be available f
     * [markdownlint](#markdownlint)
     * [phan](#phan)
     * [PHP-CS-Fixer](#php-cs-fixer)
+    * [Copy Paste Detector](#copy-paste-detector)
     * [PHP Mess Detector](#php-mess-detector)
     * [PHP Magic Number Detector](#php-magic-number-detector)
     * [PHPStan](#phpstan)
@@ -143,6 +144,16 @@ Another PHP Static Code Analyzer. To use in conjunction with [PHPSTAN](#phpstan)
 The PHP Coding Standards Fixer (PHP CS Fixer) tool fixes your code to follow standards; whether you want to follow PHP coding standards as defined in the PSR-1, PSR-2, ...
 
 Greatly increase code quality.
+
+<!-- below, content of ./020-code/code_quality/phpcpd/readme.md -->
+
+#### Copy Paste Detector
+
+> [https://github.com/sebastianbergmann/phpcpd](https://github.com/sebastianbergmann/phpcpd)
+
+Copy/Paste detector will scan and highlight (consecutive) lines of code that have been duplicated. So if you have copied/pasted a function in two or three places, phpcpd will tell you.
+
+If you have a block of strictly identical code in several places, it will tell you that too (and it's up to you, for example, to create a reusable function).
 
 <!-- below, content of ./020-code/code_quality/phpmd/readme.md -->
 
