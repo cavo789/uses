@@ -1,4 +1,4 @@
-# Rector
+# Rector {#rector}
 
 > [https://github.com/rectorphp/rector](https://github.com/rectorphp/rector)
 
@@ -11,3 +11,5 @@ Rector will give you a lot of suggestions to improve the quality of your code an
 Rector is a refactoring tool and also make a lot of automated changes to help you to f.i. convert your code from PHP 5.3 to PHP 7.4 f.i.
 
 It's an excellent tool with an amazing support : the developer answer very fast (see [Issues](https://github.com/rectorphp/rector/issues)).
+
+**The easiest way to use it is using [https://github.com/jakzal/phpqa](https://github.com/jakzal/phpqa).**

@@ -11,3 +11,5 @@ if (mb_strlen($password) > 7) {
 ```
 
 and suggest to define a constant instead of hard-coding the number. With a constant, the code will immediately be more readable.
+
+**The easiest way to use it is using [https://github.com/jakzal/phpqa](https://github.com/jakzal/phpqa).**

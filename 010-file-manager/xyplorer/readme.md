@@ -9,3 +9,5 @@ A million times better than the old, basic Windows Explorer.
 💶 XYplorer is a freemium software, you can use it for free but not all features will be available. On my own, I got a lifetime license in 2015.
 
 *Also take a look to my [XYplorer repository](https://github.com/cavo789/tools_xyplorer).*
+
+💶 **Paid software.**

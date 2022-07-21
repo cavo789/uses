@@ -1,4 +1,4 @@
-# Visual Studio Code
+# Visual Studio Code {#vscode}
 
 > [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
