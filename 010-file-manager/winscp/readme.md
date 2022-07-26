@@ -4,6 +4,6 @@
 
 The FTP client of my choice.
 
-WinSCP supports automation! ([https://github.com/cavo789/tools_winscp](https://github.com/cavo789/tools_winscp))
+WinSCP supports automation!
 
 *Also take a look to my [WinSCP repository](https://github.com/cavo789/tools_winscp).*

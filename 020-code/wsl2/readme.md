@@ -6,7 +6,7 @@ Working under Windows, as from Windows 10 you can enable `Windows Subsystem for 
 
 The installation process is even simplier with Windows 11.
 
-You'll then be able to start your computer on Windows and, simply, start Linux using a prompt (see `[Windows Terminal](#windows-terminal)`).
+You'll then be able to start your computer on Windows and, simply, start Linux using a prompt (see [`Windows Terminal`](#windows-terminal)).
 
 On my side, since I'm coding most of the time with PHP and Bash, I turn on my computer on Windows, start the terminal, open a Linux prompt (which is my default prompt) and run [Visual Studio Code](#vscode) from the prompt (just by typing `code .` on the prompt).
 
